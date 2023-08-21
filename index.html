@@ -40,20 +40,24 @@
 </head>
 <body>
   
-  <div class="video-container">
-    <video id="loopingVideo">
+   <div class="video-container">
+    <video id="loopingVideo" controls>
       <source src="video/video3.mp4" type="video/mp4">
       Seu navegador não suporta o formato de vídeo.
     </video>
   </div>
   
+  <p>Confira nosso incrível produto em ação!</p>
+  <a href="src/home.html" class="cta-button">Saiba mais</a>
+
   <script>
     const video = document.getElementById('loopingVideo');
-    video.autoplay = true; // Adicione esta linha para reprodução automática
     video.addEventListener('ended', function() {
       video.currentTime = 0;
       video.play();
     });
   </script>
+</body>
+</html>
 
   
