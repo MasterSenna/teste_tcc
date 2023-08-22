@@ -3,16 +3,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    --bggradient: linear-gradient(#dd2476, #ff512f);
+    background: var(--bggradient);
+    --Rubik: "Rubik", cursive;
+    /* fallback for old browsers */
+   
 }
+
+
+    
+
+
+
+
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #ecf0f1;
+    background: var(--bggradient);
+    
 }
 .content {
     background-color: #fff;
@@ -26,7 +42,7 @@ body {
 .content::before {
     content: "";
     position: absolute;
-    background-color: #f58e07;
+    background-color: #3b006b;
     width: 40%;
     height: 100%;
     border-top-left-radius: 15px;
@@ -44,7 +60,9 @@ body {
     color: #fff;
 }
 .title-second {
-    color: #58af9b;
+    color: #7e9400;
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .description {
     font-size: 14px;
@@ -61,8 +79,8 @@ body {
     border-radius: 15px;
     text-transform: uppercase;
     color: #fff;
-    font-size: 10px;
-    padding: 10px 50px;
+    font-size: 14px;
+    padding: 10px 40px;
     cursor: pointer;
     font-weight: bold;
     width: 150px;
@@ -74,20 +92,22 @@ body {
     background-color: transparent;
     border: 1px solid #fff;
     transition: background-color .5s;
+    padding: 0.2vmin 1vmin;
 }
 .btn-primary:hover {
     background-color: #fff;
-    color: #58af9b;
+    color: black;
+    
 }
 .btn-second {
-    background-color: #58af9b;
-    border: 1px solid #58af9b;
+    background-color:#007ffb;
+    border: 0;
     transition: background-color .5s;
 }
 .btn-second:hover {
     background-color: #fff;
-    border: 1px solid #58af9b;
-    color: #58af9b;
+    border: 1px solid #007ffb;
+    color: #007ffb
 }
 .first-content {
     display: flex;

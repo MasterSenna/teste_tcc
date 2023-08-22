@@ -107,6 +107,12 @@ header .container .col-md-7 p {
   border-radius: 30px;
   font-weight: bold;
 }
+.primary-btn a {
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
 
 /********** section 1 **************/
 
@@ -115,13 +121,15 @@ header .container .col-md-7 p {
 }
 
 .section-1 .row .col-md-6 .pray img {
-  opacity: 0.8;
-  width: 80%;
+  opacity: 1;
+  width: 120%;
   border-radius: 0.2em;
 }
 
 .section-1 .row .col-md-6:last-child {
   position: relative;
+  font-size: 22px;
+  font-weight: bolder;
 }
 
 
@@ -159,7 +167,11 @@ header .container .col-md-7 p {
 
 
 
-
+.imgMentor{
+  opacity: 1;
+  width: 40%;
+  border-radius: 0.2em;
+}
 
 
 .section-1 .row .col-md-6 .panel {
@@ -177,8 +189,8 @@ header .container .col-md-7 p {
 
 .section-1 .row .col-md-6 .panel h1 {
   font-weight: bold;
-  padding: 0.4em 0;
-  font-size: 2em;
+  padding: 0.1em 0;
+  font-size: 1.8em;
 }
 
 .section-1 .row .col-md-6 .panel p {
@@ -273,7 +285,7 @@ header .container .col-md-7 p {
 }
 
 .cards .title {
-  background: rgba(208, 241, 241, 0.199);
+  background: rgba(0, 212, 53, 0.767);
   padding: 1.4em 2.5em;
   font-size: 2vmin;
 }
@@ -290,7 +302,7 @@ header .container .col-md-7 p {
 }
 
 .card-body .pricing > h1 {
-  font-size: 10vmin;
+  font-size: 2vmin;
   padding: 1em 0.5em;
 }
 
