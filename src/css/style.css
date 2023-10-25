@@ -7,7 +7,8 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    --bggradient: linear-gradient(#dd2476, #ff512f);
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+
     background: var(--bggradient);
     --Rubik: "Rubik", cursive;
     /* fallback for old browsers */
@@ -55,14 +56,18 @@ body {
     font-size: 28px;
     font-weight: bold;
     text-transform: capitalize;
+    margin-bottom: 20px; /* Adicione margem na parte inferior para separá-lo dos elementos acima */
 }
 .title-primary {
     color: #fff;
 }
 .title-second {
     color: #7e9400;
-    font-size: 60px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0; /* Remova qualquer margem que possa estar causando desalinhamento */
+    padding: 0; /* Remova qualquer preenchimento que possa estar causando desalinhamento */
+    text-align: center; /* Centralize o texto horizontalmente */
 }
 .description {
     font-size: 14px;
